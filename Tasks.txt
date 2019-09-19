@@ -1,0 +1,42 @@
+1. predisporre tabellina per esperimenti (finestre di 30s)    -->  codificata una funzione che dato il file GT (formato amhuse) fornisce un vettore di HR per ogni intervallo di 30s (parametro)
+2. Provare a fare un nuovo DB con gli studenti	              -->  Donatello
+
+3. Fare un main generico   --> Donatello
+   
+     INPUT --> Video V, Metodo M, X (sec della finestra)
+     OUTPUT --> Vettore di bpm (lunghezza variabile a seconda di X)
+
+      Codice
+             1. Lett video
+             2. divisione in finestre e foreach finestra
+	            3. applica Metodo M   --> funzione generica ingresso lista di immagini  --> valore di bmp
+
+
+Algo 1   --> solo testing     --> Vittorio
+
+Borghetto (Arrotta + detection dlib e transformazione affine)
+
+        * aggiungere il parametro sulla finestra di elaborazione
+
+
+
+
+Algo 2    --> Vittorio
+
+Ghinelli (Magnification)
+
+        * aggiungere il parametro sulla finestra di elaborazione
+        * tracking del volto
+        * visualizzare il rettangolo delle zone
+
+Possibile nuovo algo
+
+
+
+Algo 1 + 2
+  
+    - detection (o tracking) e allineamento del viso
+    - magnification
+    - prendere i canali RGB sul magnification
+
+

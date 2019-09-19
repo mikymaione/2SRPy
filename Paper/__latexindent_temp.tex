@@ -1,0 +1,88 @@
+%MIT License
+%Copyright (c) 2019 Michele Maione, mikymaione@hotmail.it
+%Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+%THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+\documentclass[10pt,journal,compsoc]{IEEEtran}
+
+\ifCLASSOPTIONcompsoc
+  \usepackage[nocompress]{cite}
+\else
+  \usepackage{cite}
+\fi
+
+\begin{document}
+\title{\textsc{A Novel Algorithm for Remote Photoplethysmography - Spatial Subspace Rotation}}
+\author{Michele~Maione%
+\IEEEcompsocitemizethanks{\IEEEcompsocthanksitem M. Maione, Interazione naturale e Metodi di computazione affettiva, A/A 2018-2019, Universitá degli Studi di Milano, via Celoria 18, Milano, Italia.\protect\\
+E-mail: michele.maione@studenti.unimi.it}}
+
+\markboth{Interazione naturale e Metodi di computazione affettiva, M. Maione, A/A 2018-2019}%
+{Shell \MakeLowercase{\textit{et al.}}: A Novel Algorithm for Remote Photoplethysmography - Spatial Subspace Rotation}
+
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+In "A Novel Algorithm for Remote Photoplethysmography - Spatial Subspace Rotation" a cura di W. Wang, S. Stuijk e G. de Haan, gli autori propongono un algoritmo (2SR) per la fotopletismografia remota (rPPG).
+L'algorimo 2SR richiede il riconoscimento degli skin-pixels, e per lo scopo è stato utilizzato l'algoritmo (SkinColorFilter) proposto in "Adaptive skin segmentation via feature-based face detection" a cura di M.J. Taylor e T. Morris.
+Ambedue gli algoritmi sono stati implementati in classi Python: SSR.py, SkinColorFilter.py.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Computer Society, IEEE, IEEEtran, journal, \LaTeX, paper, template.
+\end{IEEEkeywords}}
+
+\maketitle
+\IEEEdisplaynontitleabstractindextext
+\IEEEpeerreviewmaketitle
+\IEEEraisesectionheading{\section{Introduction}\label{sec:introduction}}
+\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
+for IEEE Computer Society journal papers produced under \LaTeX\ using
+IEEEtran.cls version 1.8b and later.
+I wish you the best of success.
+\hfill mds
+\hfill August 26, 2015
+
+\subsection{Subsection Heading Here}
+Subsection text here.
+
+\subsubsection{Subsubsection Heading Here}
+Subsubsection text here.
+
+\section{Conclusion}
+The conclusion goes here.
+
+\appendices
+\section{Proof of the First Zonklar Equation}
+Appendix one text goes here.
+
+\section{}
+Appendix two text goes here.
+
+\ifCLASSOPTIONcompsoc
+  \section*{Acknowledgments}
+\else
+  \section*{Acknowledgment}
+\fi
+
+The authors would like to thank...
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+
+\begin{thebibliography}{1}
+\bibitem{IEEEhowto:kopka}
+H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+\end{thebibliography}
+
+\begin{IEEEbiography}{Michael Shell}
+Biography text here.
+\end{IEEEbiography}
+
+\begin{IEEEbiographynophoto}{John Doe}
+Biography text here.
+\end{IEEEbiographynophoto}
+
+\begin{IEEEbiographynophoto}{Jane Doe}
+Biography text here.
+\end{IEEEbiographynophoto}
+
+\end{document}
